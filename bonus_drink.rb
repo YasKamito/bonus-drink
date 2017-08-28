@@ -1,5 +1,5 @@
 class BonusDrink
   def self.total_count_for(amount)
-    0
+    return amount + amount.div(3)
   end
 end
